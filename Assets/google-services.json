@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682125822132",
+    "project_id": "apitest-e8000",
+    "storage_bucket": "apitest-e8000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682125822132:android:34d66beaf439342cebafe1",
+        "android_client_info": {
+          "package_name": "com.Tokyha.APITest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH0whsbeTGwLotSjOr1ZwYBBz-hKlriro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
