@@ -20,7 +20,7 @@ public class GetMethod : MonoBehaviour
 
     IEnumerator GetData_Coroutine(){
         outputArea.text = "Loading...";
-        string url = "https://jsonplaceholder.typicode.com/posts/2";
+        string url = "http://localhost:3000/accounts";
         url += "?random=" + Random.Range(0, 1000); // Thêm tham số ngẫu nhiên để tránh cache
         using(UnityWebRequest request = UnityWebRequest.Get(url)){
             yield return request.SendWebRequest();

@@ -21,9 +21,8 @@ public class PostMethod : MonoBehaviour
     IEnumerator PostData_Coroutine(){
         outputArea.text = "Loading...";
 
-        string url = "https://my-json-server.typicode.com/typicode/demo/posts";
-        string jsonData = "{\"user1\": {\"account\": \"abc1\", \"pass\": \"123456\"}}";
-
+        string url = "http://localhost:3000/accounts";
+        string jsonData = "{\"id\": \"your_custom_id\", \"user1\": {\"account\": \"abc1\", \"pass\": \"123456\"}}";
         using (UnityWebRequest request = UnityWebRequest.Post(url, jsonData,"application/json"))
         {
 
